@@ -1,32 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smart Surplus Food Intelligence System</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Extra2Essential — connecting surplus food to the people who need it, before it's too late.">
+<meta name="theme-color" content="#2F6B3C">
+<title>Extra2Essential — Surplus Food Intelligence</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="app" class="mobile-container">
-        <!-- Views will be injected here -->
-        <header id="main-header">
-            <h1 id="app-title">Smart Surplus</h1>
-            <button id="role-switcher" class="btn-ghost">Logout</button>
-        </header>
 
-        <main id="content-area">
-            <!-- Dynamic Content -->
-            <div id="loading">Initializing System...</div>
-        </main>
+<a href="#content-area" class="skip-link">Skip to content</a>
 
-        <nav id="bottom-nav" class="hidden">
-            <!-- Navigation items based on role -->
-        </nav>
+<header class="site-header">
+  <div class="header-inner">
+
+    <button id="brand-home" class="brand" type="button" aria-label="Extra2Essential, go to role selection">
+      <svg class="brand-mark" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M12 21C7 17 4 13.5 4 9.5C4 6 6.5 3 10 3C11.2 3 12 3.6 12 3.6C12 3.6 12.8 3 14 3C17.5 3 20 6 20 9.5C20 13.5 17 17 12 21Z" fill="currentColor" opacity="0.18"/>
+        <path d="M12 21C7 17 4 13.5 4 9.5C4 6 6.5 3 10 3C11.2 3 12 3.6 12 3.6C12 3.6 12.8 3 14 3C17.5 3 20 6 20 9.5C20 13.5 17 17 12 21Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+        <path d="M12 21V9.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+      </svg>
+      <span class="brand-text">
+        <span class="brand-full">Extra2Essential</span>
+        <span class="brand-short">E2E</span>
+      </span>
+    </button>
+
+    <div class="header-actions">
+      <span id="role-pill" class="role-pill hidden"></span>
+
+      <button id="theme-toggle" class="icon-btn" type="button" aria-pressed="false" aria-label="Switch to dark mode">
+        <svg class="icon icon-sun" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.7"/>
+          <path d="M12 2.5V5M12 19V21.5M21.5 12H19M5 12H2.5M18.4 5.6L16.7 7.3M7.3 16.7L5.6 18.4M18.4 18.4L16.7 16.7M7.3 7.3L5.6 5.6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+        </svg>
+        <svg class="icon icon-moon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+        </svg>
+      </button>
+
+      <button id="role-switcher" class="icon-btn hidden" type="button" aria-label="Switch role">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M16 3L20 7L16 11" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M4 7H20" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+          <path d="M8 21L4 17L8 13" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M20 17H4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+        </svg>
+      </button>
     </div>
 
-    <!-- Modals / Notifications -->
-    <div id="notification-toast" class="toast hidden"></div>
+  </div>
+</header>
 
-    <script src="app.js"></script>
+<main id="content-area" class="content-area" tabindex="-1">
+  <div class="loading-shell">
+    <div class="spinner" aria-hidden="true"></div>
+    <p>Loading Extra2Essential…</p>
+  </div>
+</main>
+
+<div id="toast-region" class="toast-region" aria-live="polite" aria-atomic="false"></div>
+
+<script src="app.js"></script>
 </body>
 </html>
