@@ -1,0 +1,67 @@
+🌍 Extra2Essential (E2E)
+Extra2Essential (E2E) is a web-based platform designed to reduce food waste by connecting food donors with NGOs and organizations that can distribute surplus food to those in need.
+The platform aims to create a bridge between restaurants, event organizers, households, and NGOs, ensuring that excess food reaches people instead of ending up as waste.
+🚀 Features
+🍱 Food Donation Management
+Donate surplus food easily
+Specify food quantity and pickup details
+Real-time donation submissions
+🤝 NGO Connectivity
+NGOs can view available donations
+Accept and manage food pickup requests
+Streamlined communication between donors and NGOs
+📍 Location-Based Coordination
+Donation pickup location tracking
+Efficient food distribution workflow
+📊 Dashboard & Analytics
+View donation records
+Track food saved from wastage
+Monitor NGO participation
+📱 Responsive Design
+Mobile-friendly interface
+Tablet and desktop support
+Optimized user experience across devices
+🛠️ Tech Stack
+Frontend
+HTML5
+CSS3
+JavaScript (ES6)
+Design
+Responsive UI
+Modern card-based layout
+Interactive forms
+Tools
+Git
+GitHub
+VS Code
+🎯 Problem Statement
+A significant amount of edible food is wasted every day while many people struggle with food insecurity.
+Extra2Essential (E2E) addresses this challenge by:
+Reducing food waste
+Supporting NGOs in food distribution
+Encouraging community participation
+Contributing towards sustainable development
+🌱 SDG Alignment
+This project supports:
+SDG 2 – Zero Hunger
+Reducing hunger through efficient food redistribution.
+SDG 12 – Responsible Consumption and Production
+Minimizing food waste and promoting sustainable resource utilization.
+🤲 Contributing
+Contributions, suggestions, and improvements are welcome.
+Fork the repository
+Create a feature branch
+Commit changes
+Push to your branch
+Create a Pull Request
+👩‍💻 Author
+Mizu (Abirami Karthick)
+B.Tech Information Technology Student
+Passionate about:
+Web Development
+Full Stack Development
+AI Applications
+Social Impact Technology
+⭐ Support
+If you found this project useful, consider giving it a Star ⭐ on GitHub and sharing it with others.
+"Turning Food Waste into Hope, One Donation at a Time." 🌍💚
